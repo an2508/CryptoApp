@@ -12,7 +12,7 @@ import { Review } from '../Review/Review';
 
 import { ReactComponent as LogoIcon } from '../../svg/Vector.svg' ////av
 import { ReactComponent as LogoIconOne } from '../../svg/svgone.svg'
-import {ReactComponent as Dot} from '../../svg/dot.svg'
+import { ReactComponent as Dot } from '../../svg/dot.svg'
 
 function App() {
 
@@ -25,6 +25,8 @@ function App() {
   useEffect(() => {
     dispatch(getCurrencies())
   }, [])
+
+  const hello = 'Hello World'
 
   return (
 
@@ -54,12 +56,12 @@ function App() {
         <Review />
         <Review />
         <Review />
-         
+
       </div>
       <div className='dot'>
-          <Dot/>
-        </div>
-   
+        <Dot />
+      </div>
+
     </div>
   );
 }
