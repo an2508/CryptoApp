@@ -1,0 +1,45 @@
+
+
+.title {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+  }
+  
+  .title__text {
+    font-weight: 500;
+    font-size  : 70px;
+    line-height: 82px;
+    text-align : center;
+    margin-top : 81px;
+  
+  }
+  
+  .middle_text {
+    font-weight: 300;
+    font-size  : 15px;
+    line-height: 18px;
+    text-align : center;
+    margin     : 40px 0 24px 0;
+  }
+  
+  .title__button {
+    width        : 200px;
+    height       : 40px;
+    background   : #F6764D;
+    border       : 1px solid #F6764D;
+    box-shadow   : 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    color        : white;
+    font-weight  : 400;
+    font-size    : 18px;
+    line-height  : 21px;
+    cursor       : pointer;
+    transition: all .3s;
+  
+  }
+  
+  .title__button:active {
+    transform : translateY(2px);
+    transition: all .3s;
+  }

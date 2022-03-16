@@ -1,0 +1,18 @@
+.card-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review_div{
+    display: flex;
+    justify-content: center;
+    margin: 71px 41px 71px 41px;
+    background-color: #101010;
+}
+
+.dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}

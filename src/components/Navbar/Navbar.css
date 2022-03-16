@@ -1,0 +1,26 @@
+
+.navbar__ul {
+    display        : flex;
+    list-style-type: none;
+    justify-content: center;
+    margin         : 72px 0 33px 0;
+  }
+  
+  .navbar__ul>li {
+    position    : relative;
+    padding-left: 20px;
+  }
+  
+  .navbar__ul>li>a {
+    color          : white;
+    text-decoration: none;
+    font-weight    : 400;
+    font-size      : 18px;
+    line-height    : 21px;
+  }
+  
+  .navbar__ul>li>a:hover {
+    border-bottom: 3px solid #F6764D;
+    box-shadow   : 0px 3px 4px rgba(246, 118, 77, 0.5);
+  
+  }

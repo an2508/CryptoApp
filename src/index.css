@@ -1,0 +1,17 @@
+body {
+  margin                 : 0;
+  box-sizing             : border-box;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color       : black;
+  font-family            : 'Roboto';
+
+}
+
+.container {
+  background-color: black;
+  color           : white;
+  margin          : 32px 39px 0 37px;
+
+}
+
