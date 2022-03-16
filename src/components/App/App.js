@@ -26,7 +26,7 @@ function App() {
     dispatch(getCurrencies())
   }, [])
 
-  const hello = 'Hello World'
+  
 
   return (
 
